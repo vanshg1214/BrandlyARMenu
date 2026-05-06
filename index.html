@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/jpeg" href="/Images/BrandlyLogo.jpeg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Resource Prioritization -->
+    <link rel="preconnect" href="https://cdn.8thwall.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+    <link rel="modulepreload" href="/src/main.jsx" />
+    
+    <!-- Prefetch for AR flow (Lower priority) -->
+    <link rel="prefetch" href="/ar.html" />
+    <link rel="prefetch" href="/external/xr/xr.js" />
+    
+    <title>Brandly Marketing AR Menu</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+
+    <!-- Analytics & Tracking (Loaded after main content to improve FCP) -->
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "wlcaenoiya");
+    </script>
+    <script>
+      window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PWJLN5LFME"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-PWJLN5LFME');
+    </script>
+    <script>
+      // 🧊 Service Worker: Registered only after page load to keep main thread clear
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+          navigator.serviceWorker.register('/sw.js').then(function(registration) {
+            console.log('🧊 Service Worker: Active');
+          }).catch(function(err) {
+            console.log('⚠️ Service Worker: Failed', err);
+          });
+        });
+      }
+    </script>
+  </body>
+</html>
