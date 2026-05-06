@@ -127,7 +127,7 @@ const SimpleARModelViewer = ({
           width: '100%',
           height: '100%',
           display: 'block',
-          backgroundColor: '#2a2a2a',
+          backgroundColor: 'transparent',
           cursor: 'grab',
           ...style
         }}
