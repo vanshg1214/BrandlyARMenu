@@ -131,7 +131,7 @@ const DishCard = ({ dish, onViewModal, adaptiveSettings, activeModelId, onActiva
                   objectFit: dish.posterImage ? 'contain' : 'cover',
                   display: 'block',
                   borderRadius: '12px',
-                  backgroundColor: 'transparent'
+                  backgroundColor: '#2a2a2a'
                 }}
               />
               {/* "Tap for 3D" overlay badge */}
