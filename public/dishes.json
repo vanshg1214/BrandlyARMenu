@@ -91,5 +91,95 @@
     "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400&h=300&fit=crop&crop=center",
     "modelUrl": "/Models/Anarosh Sona Moong.glb",
     "posterImage": "/Images/posters/anarosh-sona-moong.png"
+  },
+  {
+    "id": "bruschetta",
+    "name": "Bruschetta",
+    "description": "Toasted sourdough topped with heirloom tomatoes, garlic, basil, and extra virgin olive oil.",
+    "category": "STARTER",
+    "price": "£8.95",
+    "type": "veg",
+    "image": "/Images/menu/bruschetta.png"
+  },
+  {
+    "id": "burratta",
+    "name": "Burratta",
+    "description": "Burratta cheese served with Pan Fried Aubergine, artichoke hearts,cherry tomato,white truffle oil",
+    "category": "STARTER",
+    "price": "£10.50",
+    "type": "veg",
+    "image": "/Images/menu/burratta.png"
+  },
+  {
+    "id": "spaghetti-aglio",
+    "name": "Spaghetti Aglio, Olio e Peperoncino",
+    "description": "Spaghetti tossed with garlic, chilli, parsley and olive oil",
+    "category": "PASTA",
+    "price": "£13.95",
+    "type": "veg",
+    "image": "/Images/menu/spaghetti_aglio.png"
+  },
+  {
+    "id": "penne-arrabbiata",
+    "name": "Penne Arrabbiata",
+    "description": "Penne in a spicy tomato and garlic sauce, finished with parsley.",
+    "category": "PASTA",
+    "price": "£14.45",
+    "type": "veg",
+    "image": "/Images/menu/penne_arrabbiata.png"
+  },
+  {
+    "id": "mac-and-cheese",
+    "name": "Mac and Cheese",
+    "description": "macaroni pasta coated in a rich, creamy cheese sauce",
+    "category": "PASTA",
+    "price": "£15.95",
+    "type": "veg",
+    "image": "/Images/menu/mac_cheese.png"
+  },
+  {
+    "id": "funghi",
+    "name": "Funghi",
+    "description": "Mix of mushrooms, garlic, tomato sauce, fior di latte mozzarella",
+    "category": "PIZZA",
+    "price": "£12.50",
+    "type": "veg",
+    "image": "/Images/menu/funghi.png"
+  },
+  {
+    "id": "rucola-formaggio",
+    "name": "Rucola e Formaggio di Capra",
+    "description": "Rocket and goat cheese with basil sauce base",
+    "category": "PIZZA",
+    "price": "£12.50",
+    "type": "veg",
+    "image": "/Images/menu/rucola_formaggio.png"
+  },
+  {
+    "id": "pepperoni",
+    "name": "Pepperoni",
+    "description": "Spiced cured sausage, tomato sauce, fior di latte mozzarella",
+    "category": "PIZZA",
+    "price": "£13.50",
+    "type": "non-veg",
+    "image": "/Images/menu/pepperoni.png"
+  },
+  {
+    "id": "rucola-prosciutto",
+    "name": "Rucola e Prosciutto di Parma",
+    "description": "Wild rocket, parma ham, tomato sauce and mozzarella",
+    "category": "PIZZA",
+    "price": "£13.50",
+    "type": "non-veg",
+    "image": "/Images/menu/rucola_prosciutto.png"
+  },
+  {
+    "id": "nduja",
+    "name": "Nduja",
+    "description": "Spicy soft Calabrian Sausage, tomato sauce, fior di latte mozzarella",
+    "category": "PIZZA",
+    "price": "£14.50",
+    "type": "non-veg",
+    "image": "/Images/menu/nduja.png"
   }
 ]
