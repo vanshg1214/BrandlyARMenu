@@ -60,10 +60,10 @@ const DishCard = ({ dish, onViewModal, adaptiveSettings, activeModelId, onActiva
 
   // Pairing suggestions data for the scrollable section
   const pairingSuggestions = [
-    { name: 'Mojito', price: 170, image: '/Images/pairings/mojito.jpg' },
-    { name: 'Jeera Rice', price: 220, image: '/Images/pairings/jeera-rice.jpg' },
-    { name: 'Butter Naan', price: 80, image: '/Images/pairings/butter-naan.jpg' },
-    { name: 'Tandoori Mayo', price: 60, image: '/Images/pairings/tandoori-mayo.png' },
+    { name: 'Mojito', price: '€6.00', image: '/Images/pairings/mojito.jpg' },
+    { name: 'Jeera Rice', price: '€7.50', image: '/Images/pairings/jeera-rice.jpg' },
+    { name: 'Butter Naan', price: '€3.00', image: '/Images/pairings/butter-naan.jpg' },
+    { name: 'Tandoori Mayo', price: '€2.70', image: '/Images/pairings/tandoori-mayo.png' },
   ];
 
   return (
@@ -211,7 +211,7 @@ const DishCard = ({ dish, onViewModal, adaptiveSettings, activeModelId, onActiva
               <div className="flex flex-col">
                 <span className="text-[10px] text-black/40 uppercase tracking-widest font-bold">Total Price</span>
                 <span className="text-2xl font-display font-bold text-black">
-                  ₹{dish.price}
+                  {typeof dish.price === 'number' ? `€${dish.price.toFixed(2)}` : dish.price}
                 </span>
               </div>
             </div>
@@ -292,7 +292,7 @@ const DishCard = ({ dish, onViewModal, adaptiveSettings, activeModelId, onActiva
                     </div>
                     <div className="p-2.5">
                       <span className="block text-[11px] font-bold text-black leading-tight">{item.name}</span>
-                      <span className="block text-[11px] font-bold text-[var(--accent)] mt-1">₹{item.price}</span>
+                      <span className="block text-[11px] font-bold text-[var(--accent)] mt-1">{item.price}</span>
                     </div>
                   </div>
                 ))}
