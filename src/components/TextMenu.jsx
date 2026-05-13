@@ -54,7 +54,7 @@ const TextMenu = ({ dishes }) => {
     return acc;
   }, {});
 
-  const categoryOrder = ['STARTER', 'PASTA', 'PIZZA'];
+  const categoryOrder = ['STARTER', 'MAINS', 'PASTA', 'PIZZA', 'SIDES', 'DRINKS'];
   
   const sortedCategories = Object.keys(groupedDishes).sort((a, b) => {
     let indexA = categoryOrder.indexOf(a);

@@ -173,8 +173,7 @@ function App() {
     // In Chef's Special, we only show items with modelUrl
     if (isARMode && !dish.modelUrl) return false;
     
-    // In MENU, we only show items without modelUrl
-    if (!isARMode && dish.modelUrl) return false;
+    // In MENU, show ALL dishes (including Chef's Special items)
     
     // Common search filter
     const matchesSearch = dish.name.toLowerCase().includes(searchTerm.toLowerCase()) || 

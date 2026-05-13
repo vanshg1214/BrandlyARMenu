@@ -107,12 +107,12 @@ const SimpleARModelViewer = ({
         camera-controls
         interaction-policy="always-allow"
         touch-action="none"
-        disable-pan="false"
-        disable-zoom="false"
         auto-rotate={!/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)}
         auto-rotate-delay="0"
         rotation-per-second="30deg"
         bounds="tight"
+        min-camera-orbit="auto auto 5%"
+        max-camera-orbit="auto auto 200%"
         camera-target="auto auto auto"
         loading="lazy"
         reveal="auto"

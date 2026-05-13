@@ -7,7 +7,7 @@
     "meta": "CHICKEN £12.00 / PANEER £9.00",
     "price": "£12.00",
     "type": "both",
-    "image": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=400&h=300&fit=crop&crop=center",
+    "image": "/Images/menu/kebabs.png",
     "modelUrl": "/Models/Bong Kebab.glb",
     "posterImage": "/Images/posters/bong-kebab.png",
     "reorderRate": "91%",
@@ -22,7 +22,7 @@
     "meta": "",
     "price": "£11.70",
     "type": "veg",
-    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=400&h=300&fit=crop&crop=center",
+    "image": "/Images/menu/charred_cauliflower.png",
     "modelUrl": "/Models/Fool_Til_Posto.glb",
     "posterImage": "/Images/posters/phool-til-posto.png",
     "reorderRate": "78%",
@@ -37,7 +37,7 @@
     "meta": "",
     "price": "£14.70",
     "type": "non-veg",
-    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=400&h=300&fit=crop&crop=center",
+    "image": "/Images/menu/grilled_king_prawns.png",
     "modelUrl": "/Models/Aamchur Golda.glb",
     "posterImage": "/Images/posters/aamchur-golda.png",
     "reorderRate": "85%",
@@ -52,7 +52,7 @@
     "meta": "",
     "price": "£10.50",
     "type": "non-veg",
-    "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?w=400&h=300&fit=crop&crop=center",
+    "image": "/Images/menu/sesame_mango_chicken.png",
     "modelUrl": "/Models/Til Amra Murgi.glb",
     "posterImage": "/Images/posters/til-aamra-murgi.png"
   },
@@ -64,7 +64,7 @@
     "meta": "",
     "price": "£16.50",
     "type": "non-veg",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=400&h=300&fit=crop&crop=center",
+    "image": "/Images/menu/lamb_stew.png",
     "modelUrl": "/Models/Gorgora.glb",
     "posterImage": "/Images/posters/gorgora.png"
   },
@@ -76,7 +76,7 @@
     "meta": "",
     "price": "£13.50",
     "type": "non-veg",
-    "image": "https://images.unsplash.com/photo-1631709497146-d4782b17ee3e?w=400&h=300&fit=crop&crop=center",
+    "image": "/Images/menu/coconut_prawn_curry.png",
     "modelUrl": "/Models/Golda_Amok.glb",
     "posterImage": "/Images/posters/golda-amok.png"
   },
@@ -88,7 +88,7 @@
     "meta": "",
     "price": "£7.50",
     "type": "veg",
-    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400&h=300&fit=crop&crop=center",
+    "image": "/Images/menu/pineapple_pudding.png",
     "modelUrl": "/Models/Anarosh Sona Moong.glb",
     "posterImage": "/Images/posters/anarosh-sona-moong.png"
   },
@@ -181,5 +181,41 @@
     "price": "£14.50",
     "type": "non-veg",
     "image": "/Images/menu/nduja.png"
+  },
+  {
+    "id": "mojito",
+    "name": "Mojito",
+    "description": "Classic refreshing cocktail with white rum, fresh lime, mint leaves, sugar, and soda water.",
+    "category": "DRINKS",
+    "price": "£6.00",
+    "type": "veg",
+    "image": "/Images/menu/mojito.png"
+  },
+  {
+    "id": "jeera-rice",
+    "name": "Jeera Rice",
+    "description": "Fragrant basmati rice tempered with cumin seeds and ghee, the perfect accompaniment to any curry.",
+    "category": "SIDES",
+    "price": "£7.50",
+    "type": "veg",
+    "image": "/Images/menu/jeera_rice.png"
+  },
+  {
+    "id": "butter-naan",
+    "name": "Butter Naan",
+    "description": "Soft leavened bread baked in a traditional tandoor oven, brushed with melted butter.",
+    "category": "SIDES",
+    "price": "£3.00",
+    "type": "veg",
+    "image": "/Images/menu/butter_naan.png"
+  },
+  {
+    "id": "tandoori-mayo",
+    "name": "Tandoori Mayo",
+    "description": "Creamy mayonnaise infused with smoky tandoori spices, a perfect dipping sauce.",
+    "category": "SIDES",
+    "price": "£2.70",
+    "type": "veg",
+    "image": "/Images/menu/tandoori_mayo.png"
   }
 ]
