@@ -7,11 +7,12 @@ const TextMenuItem = ({ dish }) => {
   const pairingSuggestions = [
     { name: 'Mojito', price: '£6.00', image: '/Images/menu/mojito.png' },
     { name: 'Jeera Rice', price: '£7.50', image: '/Images/menu/jeera_rice.png' },
-    { name: 'Butter Naan', price: '£3.00', image: '/Images/menu/butter_naan.png' }
+    { name: 'Butter Naan', price: '£3.00', image: '/Images/menu/butter_naan.png' },
+    { name: 'Tandoori Mayo', price: '£2.70', image: '/Images/menu/tandoori_mayo.png' }
   ];
 
-  // Only show details for Kebabs or dishes with pairing data
-  const hasDetails = dish.id === 'bong-kebab' || dish.pairing;
+  // ONLY show details for Kebabs dish as requested
+  const hasDetails = dish.id === 'bong-kebab';
 
   return (
     <div className="mb-10 group text-left">
