@@ -228,11 +228,11 @@ function App() {
           
           {/* Category Tabs */}
           <div className="flex items-center justify-center gap-8 overflow-x-auto scrollbar-hide pb-2">
-            {["Chef's Special", 'MENU'].map(cat => (
+            {["Chef's Special", 'Menu'].map(cat => (
               <button
                 key={cat}
                 onClick={() => setActiveCategory(cat)}
-                className={`text-[10px] tracking-[0.2em] font-medium uppercase pb-1 transition-all
+                className={`text-[10px] tracking-[0.2em] font-medium pb-1 transition-all
                   ${activeCategory === cat ? 'text-black border-b-2 border-black' : 'text-black/40 border-b-2 border-transparent hover:text-black/60'}`}
               >
                 {cat}

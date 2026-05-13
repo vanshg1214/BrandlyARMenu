@@ -28,7 +28,7 @@ const TextMenuItem = ({ dish }) => {
           {dish.description}
         </p>
         {dish.meta && (
-          <p className="text-xs text-[#C9A46A] mt-1 uppercase tracking-wider font-medium">
+          <p className="text-xs text-[#C9A46A] mt-1 tracking-wider font-medium">
             {dish.meta}
           </p>
         )}
@@ -48,13 +48,13 @@ const TextMenuItem = ({ dish }) => {
 const TextMenu = ({ dishes }) => {
   // Group dishes by category
   const groupedDishes = dishes.reduce((acc, dish) => {
-    const cat = dish.category || 'MAINS';
+    const cat = dish.category || 'Mains';
     if (!acc[cat]) acc[cat] = [];
     acc[cat].push(dish);
     return acc;
   }, {});
 
-  const categoryOrder = ['STARTER', 'MAINS', 'PASTA', 'PIZZA', 'SIDES', 'DRINKS'];
+  const categoryOrder = ['Starter', 'Mains', 'Pasta', 'Pizza', 'Sides', 'Drinks'];
   
   const sortedCategories = Object.keys(groupedDishes).sort((a, b) => {
     let indexA = categoryOrder.indexOf(a);
@@ -73,7 +73,7 @@ const TextMenu = ({ dishes }) => {
         return (
           <div key={category} className="mb-24">
             <div className="flex items-center justify-center mb-10">
-              <h2 className="text-2xl sm:text-3xl font-light tracking-[0.2em] uppercase text-black">
+              <h2 className="text-2xl sm:text-3xl font-light tracking-[0.2em] text-black">
                 {category}
               </h2>
             </div>
@@ -89,7 +89,7 @@ const TextMenu = ({ dishes }) => {
 
       {/* Footer */}
       <div className="text-center mt-20 pt-10 border-t border-black/10 opacity-50">
-        <p className="text-xs tracking-[0.2em] font-light uppercase">* 5% GST to be added</p>
+        <p className="text-xs tracking-[0.2em] font-light">* 5% GST to be added</p>
       </div>
     </div>
   );
