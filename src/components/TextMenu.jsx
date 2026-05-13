@@ -39,7 +39,9 @@ const TextMenuItem = ({ dish }) => {
             </span>
           </div>
           <p className="text-sm text-black/70 leading-relaxed max-w-[90%] font-light">
-            {dish.description}
+            {dish.description.split(' ').length > 12 
+              ? dish.description.split(' ').slice(0, 12).join(' ') + '...' 
+              : dish.description}
           </p>
           {dish.meta && (
             <p className="text-xs text-[#C9A46A] mt-1 tracking-wider font-medium">
