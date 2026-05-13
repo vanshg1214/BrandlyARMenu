@@ -42,7 +42,7 @@ function App() {
     if (savedState) {
       try {
         const { category, search, scrollY } = JSON.parse(savedState);
-        setActiveCategory(category || 'MENU');
+        setActiveCategory(category || 'Menu');
         setSearchTerm(search || '');
         window._initialScrollY = scrollY;
       } catch (e) {
@@ -254,12 +254,12 @@ function App() {
               {/* ── Branded Section Title ── */}
               <div className="mb-16 text-center animate-fadeIn">
                 <h1 className="text-6xl font-script text-black mb-4 font-bold tracking-wide">
-                  {activeCategory === 'MENU' ? 'Menu' : "Chef's Special"}
+                  {activeCategory === 'Menu' ? 'Menu' : "Chef's Special"}
                 </h1>
                 <div className="h-[1px] w-24 bg-[var(--accent)] mx-auto opacity-50"></div>
               </div>
 
-              {activeCategory === 'MENU' ? (
+              {activeCategory === 'Menu' ? (
                 <div className="animate-fadeIn">
                    <TextMenu dishes={filteredDishes} />
                 </div>
